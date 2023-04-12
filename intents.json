@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, i can help you with PowerBI",
+        "Hi there",
+        "Hi there, how can I help,to be honest i just PowerBI Right now!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","cool"],
+      "responses": [
+        "See you later, thanks for the conversation",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "ok",
+      "patterns": ["ok", "hmmm", "cool", "fuck","who is better", "shutup","gotit"],
+      "responses": ["hmmmm", "hmmmm...anything else", "hmmm"]
+    },
+    {
+      "tag": "PowerBI",
+      "patterns": [
+        "What is Power BI?",
+        "What is Power BI Desktop",
+        "What are Power BI?",
+        "Power BI?",
+        "PowerBI",
+        "What is PowerBI",
+        "What is Powerbi",
+        "What is Powebi",
+        "What is powerbi?",
+        "What is Pwrbi?"
+      ],
+      "responses": [
+        "Power BI is a business analytics tool developed by Microsoft that helps you turn multiple unrelated data sources into valuable and interactive insights,These data may be in the form of an Excel spreadsheet or cloud-based/on-premises hybrid data warehouses,You can easily connect to all your data sources and share the insights with anyone,Honestly there are lot of things to learn here but if you could just tell me the topic name from here onwards i will help you."
+        ]
+    },
+    {
+      "tag": "PowerPivot",
+      "patterns": [
+        "What is Power Pivot?",
+        "can you tell me about Powerpivot",
+        "can you tell me about pivotTABLE",
+        "What are Pwrpivot?",
+        "Powerpivot?",
+        "Powerpivot",
+        "What is Powerpivot",
+        "What is Powepivot",
+        "What is Powebpivot",
+        "What is power pivot",
+        "What is Pwrpivot?"
+      ],
+      "responses": [
+        "Power Pivot is an add-on provided by Microsoft to extend the analytical capabilities and services of Microsoft Excel."
+      ]
+    },
+    {
+      "tag": "PowerQuery",
+      "patterns": [
+        "What is Power query?",
+        "What is Powerquery",
+        "What is Power querry?",
+        "can you tell me about Powerquery?",
+        "Powerquerry?",
+        "Powerquery",
+        "What is Powerquery",
+        "What is Powequery",
+        "What is Powebquery",
+        "What is power query",
+        "What is Pwrquery?"
+      ],
+      "responses": [
+        "Power query is a business intelligence tool designed by Microsoft for Excel. Power Query allows you to import data from various data sources and will enable you to clean, transform and reshape your data as per the requirements. Power Query allows you to write your query once and then run it with a simple refresh."
+      ]
+    }
+  ]
+}
